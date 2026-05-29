@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: transparent;
+    justify-content: center;
+    align-items:center;
+}
+.box{
+    width: 320px;
+    height: 340px;
+    background-color:rgba(239, 243, 245, 0.966);
+}
+
+#box1> img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+#box2 {
+  padding: 40px 10px 20px 50px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#box2>h2 {
+  font-weight: bold;
+  margin-bottom: 3px;
+  text-align: center;
+  font-family: " Geneva, Verdana, sans-serif;
+}
+
+#box2>p {
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+#box2>form>label {
+  display: block;
+  font-size: 10px;
+  color: gray;
+}
+
+#box2>form>input {
+  width: 90%;
+  padding: 8px;
+  border:none;
+  border-radius: 8px;
+}
+
+#box2 input::placeholder {
+  color: #999;
+  font-size: 10px;
+}
+
+#username {
+  margin-bottom: 15px;
+}
+#box2>form>a{
+    display: block;
+    text-align: right;
+    color: gray;
+    text-decoration:none;
+    font-size: 12px;
+    margin-right: 20px;
+}
+#box2>form>a:hover{
+    color: lightblue;
+}
+#box2>form>button {
+  width: 90%;
+  padding: 8px;
+  background-color:lightblue;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin:20px 0px 20px;
+}
+#box2>form>button:hover {
+  background-color: #1e90ff;
+}
+#box2>form>p {
+  text-align: center;
+  font-size: 10px;
+  color: #555;
+}
+
+#box2>form>p>a {
+  color: lightblue;
+  text-decoration: none;
+}
+
+#box2 > form >p > a:hover {
+  color: darkblue;
+}
