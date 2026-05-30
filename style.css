@@ -16,28 +16,34 @@
     width: 320px;
     height: 340px;
     background-color:rgba(239, 243, 245, 0.966);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #box1> img {
   width: 100%;
   height: 100%;
   display: block;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 #box2 {
-  padding: 40px 10px 20px 50px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
 }
 
 #box2>h2 {
   font-weight: bold;
   margin-bottom: 3px;
-  text-align: center;
-  font-family: " Geneva, Verdana, sans-serif;
 }
 
 #box2>p {
-  text-align: center;
   font-size: 14px;
   color: #555;
   margin-bottom: 20px;
@@ -50,8 +56,8 @@
 }
 
 #box2>form>input {
-  width: 90%;
-  padding: 8px;
+  width: 100%;
+  padding: 8px 25px 8px 8px;
   border:none;
   border-radius: 8px;
 }
@@ -69,14 +75,14 @@
     text-align: right;
     color: gray;
     text-decoration:none;
-    font-size: 12px;
-    margin-right: 20px;
+    font-size: 10px;
+    margin: 2px 2px;
 }
 #box2>form>a:hover{
     color: lightblue;
 }
 #box2>form>button {
-  width: 90%;
+  width: 100%;
   padding: 8px;
   background-color:lightblue;
   color: white;
